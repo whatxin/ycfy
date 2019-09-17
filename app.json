@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "企业城",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor" : "#000",
+    "color" : "#6C6C6C",
+    "selectedColor" : "#fff",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "匠人村"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "企业城"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ]
+  }
+
+}

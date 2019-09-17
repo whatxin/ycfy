@@ -1,0 +1,60 @@
+/**index.wxss**/
+.search {
+  width: 750rpx;
+  height: 76rpx;
+  background: #000;
+}
+
+.search .txt {
+  float: left;
+  width: 549rpx;
+  height: 54rpx;
+  margin: 6rpx 0 0 30rpx;
+  padding-left: 35rpx;
+  font-size: 26rpx;
+  color: #B5B5B5;
+  border-radius: 25rpx;
+  background: #fff;
+}
+
+.search .area {
+  position: absolute;
+  left: 644rpx;
+  width: 93rpx;
+  height: 37rpx;
+  margin: 15rpx 30rpx 0 0;
+  font-size: 26rpx;
+  color: #fff;
+}
+
+.search .area text {
+  position: relative;
+  top: 24rpx;
+  left: 6rpx;
+  width: 0;
+  height: 0;
+  border-width: 10rpx;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+.nav {
+  width: 720rpx;
+  height: 56rpx;
+}
+.nav {
+  padding: 18rpx 0 0 30rpx;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.nav view {
+  float: left;
+  width: 52rpx;
+  height: 37rpx;
+  margin-left: 127rpx;
+  font-size: 26rpx;
+}
+.nav view:nth-child(1) {
+  margin-left: 0;
+}
+.nav view:nth-child(4) {
+  width: 104rpx;
+}

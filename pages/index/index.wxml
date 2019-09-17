@@ -1,0 +1,11 @@
+<!-- index.wxml -->
+<view class="search">
+  <input type="text" class="txt" placeholder="搜索职位或企业" />
+  <view class="area">
+    全国
+    <text></text>
+  </view>
+</view>
+<view class="nav">
+  <view wx:for="{{nav}}"wx:key="item.id">{{item.name}}</view>
+</view>
